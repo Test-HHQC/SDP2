@@ -33,33 +33,27 @@ knitr::kable(mtcars[1:5, 1:5], caption = "The mtcars data.")
 The goal is to maximize the object function $$Tr(CX)$$ under the constraint $Tr(A_j X)\le b_j$ for all $j \in [m]$ with semidefinite $X$.
 
 
-##  The Arora-Kale framework
+The improvment for the QM approach to the Arora-Kale framework is the [Gibbs sampling](#improvement).
+
+
+##<a id="AKframe" \>The Arora-Kale framework
 
 * complexity for the Arora-Kale framework
 
 | ref | algorithm   |  complexity |
 | --- | ---- |  ------ |
 | [1] | classical  |  $\tilde{O}(nms(\frac{Rr}{\varepsilon})^4 + ns(\frac{Rr}{\varepsilon})^7)$ |
-| --- | ---- |  ------ |
-| [1] | QM   |  O(N)       |
-| --- | ---- |  ------ |
+| [1] | QM   |  $\tilde{O}(\sqrt{mn}s^2 R^{32}/\delta^{18})$       |
 
 The details are listed in the [Appendix](#details)
 The complexities are listed in Table 
 
 
-# My Anchored Heading {#my-anchor}
+There are several frameworks to solve SDP. One of it is the [AK framework](#AKframe).
 
-- Blah blah. I want say some things about the [Methods](#methods) section. 
 
-[link to my anchored heading](#my-anchor)
+## <a id="improvement" />Main improvement
 
-## Methods {#methods}
-
-## <a id="anchortext" />Header text
-
-To go to a section on the same page:
-[text](#anchortext)
 
 
 ## Reference:
