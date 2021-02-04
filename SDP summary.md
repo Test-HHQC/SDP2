@@ -11,10 +11,11 @@
 </head>
 
 #  the test section
-Also see Equation \@ref(eq:mean).
+Also see Equation \eqref{eq1}.
 
 \begin{equation}
 \bar{X} = \frac{\sum_{i=1}^n X_i}{n} 
+\label{eq1}
 \end{equation}
 
 And see Table \@ref(tab:mtcars).
@@ -29,9 +30,7 @@ Special types of optimization problems.
 ## Problem definition
 The goal is to maximize the object function $$Tr(CX)$$ under the constraint $Tr(A_j X)\le b_j$ for all $j \in [m]$ with semidefinite $X$.
 
-
-The improvment for the QM approach to the Arora-Kale framework is the [Gibbs sampling](#improvement).
-
+There are several frameworks to solve SDP. One of it is the [AK framework](#AKframe).
 
 ## <a id="AKframe" />The Arora-Kale framework
 
@@ -42,11 +41,8 @@ The improvment for the QM approach to the Arora-Kale framework is the [Gibbs sam
 | [1] | classical  |  $\tilde{O}(nms(\frac{Rr}{\varepsilon})^4 + ns(\frac{Rr}{\varepsilon})^7)$ |
 | [1] | QM   |  $\tilde{O}(\sqrt{mn}s^2 R^{32}/\delta^{18})$       |
 
+The improvment for the QM approach to the Arora-Kale framework is the [Gibbs sampling](#improvement).
 The details are listed in the [Appendix](#details)
-The complexities are listed in Table 
-
-
-There are several frameworks to solve SDP. One of it is the [AK framework](#AKframe).
 
 
 ## <a id="improvement" />Main improvement
