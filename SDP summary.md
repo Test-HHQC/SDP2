@@ -36,7 +36,7 @@ The goal is to maximize the object function $$Tr(CX)$$ under the constraint $Tr(
 The improvment for the QM approach to the Arora-Kale framework is the [Gibbs sampling](#improvement).
 
 
-##<a id="AKframe" \>The Arora-Kale framework
+##<a id="AKframe" />The Arora-Kale framework
 
 * complexity for the Arora-Kale framework
 
@@ -52,30 +52,33 @@ The complexities are listed in Table
 There are several frameworks to solve SDP. One of it is the [AK framework](#AKframe).
 
 
-## <a id="improvement" \>Main improvement
+## <a id="improvement" />Main improvement
 Use the Gibbs sampling.
     
+##　test
+```mermaid
+    pie 
+    title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15 
+``
+
+```mermaid
+graph RL;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+
+```mermaid
+graph LR
+    A:::someclass --> B
+    classDef someclass fill:#f96;
+```
     
-## test
-
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-```
-
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-
 ## Reference:
 [1] [Fernando G.S.L. Brandao, Krysta Svore, Quantum Speed-ups for Semidefinite Programming](https://arxiv.org/abs/1609.05537)
 
