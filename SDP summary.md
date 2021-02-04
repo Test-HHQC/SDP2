@@ -10,17 +10,11 @@
     </script>
 </head>
 
-#  the test section
-For probelme definition, please see Equation \eqref{eq1}.
-
-
-
 # Semidefinite programming
 Special types of optimization problems.
 
 ## Problem definition
-The goal is to maximize the object function $$Tr(CX)$$ 
-
+The goal is to maximize the object function
 \begin{equation}
    Tr(CX)
 \label{eq1}
@@ -31,7 +25,7 @@ under the constraint $Tr(A_j X)\le b_j$ for all $j \in [m]$ with semidefinite $X
 There are several frameworks to solve SDP. One of it is the [AK framework](#AKframe).
 
 ## <a id="AKframe" />The Arora-Kale framework
-
+For probelme definition, please see Equation \eqref{eq1}.
 * complexity for the Arora-Kale framework
 
 | ref | algorithm   |  complexity |
