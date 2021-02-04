@@ -36,6 +36,7 @@ The goal is to maximize the object function $$Tr(CX)$$ under the constraint $Tr(
 ##  The Arora-Kale framework
 
 * complexity for the Arora-Kale framework
+
 | ref | algorithm   |  complexity |
 | --- | ---- |  ------ |
 | [1] | classical  |  $\tilde{O}(nms(\frac{Rr}{\varepsilon})^4 + ns(\frac{Rr}{\varepsilon})^7)$ |
@@ -55,29 +56,17 @@ The complexities are listed in Table
 
 ## Methods {#methods}
 
-This is what I did. 
+## <a id="anchortext" />Header text
 
-
-An oft-requested feature was the ability to have Markdown automatically handle within-document links as easily as it handled external links. To this aim, I added the ability to interpret [Some Text][] as a cross-link, if a header named “Some Text” exists.
-
-As an example, [Metadata][] will take you to the [section describing metadata][Metadata].
-
-Alternatively, you can include an optional label of your choosing to help disambiguate cases where multiple headers have the same title:
-
-### Overview [MultiMarkdownOverview] ##
-This allows you to use [MultiMarkdownOverview] to refer to this section specifically, and not another section named Overview. This works with atx- or settext-style headers.
-
-If you have already defined an anchor using the same id that is used by a header, then the defined anchor takes precedence.
-
-In addition to headers within the document, you can provide labels for images and tables which can then be used for cross-references as well.
-
+To go to a section on the same page:
+[text](#anchortext)
 
 
 ## Reference:
 [1] [Fernando G.S.L. Brandao, Krysta Svore, Quantum Speed-ups for Semidefinite Programming](https://arxiv.org/abs/1609.05537)
 
 
-##  Appendix{#details}
+## <a name="details" />Appendix
 $$ \Vert\vec{x}\Vert_1=\sum_{i=1}^N\vert{x_i}\vert $$
 
 $$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
