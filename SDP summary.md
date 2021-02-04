@@ -1,6 +1,7 @@
- <head>
- <script id="MathJax-script" <strong>async</strong> src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
- </head>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+ 
  
 # SPD approach 2
 ##  zero sum
