@@ -11,24 +11,22 @@
 </head>
 
 #  the test section
-Also see Equation \eqref{eq1}.
+For probelme definition, please see Equation \eqref{eq1}.
 
-\begin{equation}
-\bar{X} = \frac{\sum_{i=1}^n X_i}{n} 
-\label{eq1}
-\end{equation}
 
-And see Table \@ref(tab:mtcars).
-
-```{r mtcars, echo=FALSE}
-knitr::kable(mtcars[1:5, 1:5], caption = "The mtcars data.")
-```
 
 # Semidefinite programming
 Special types of optimization problems.
 
 ## Problem definition
-The goal is to maximize the object function $$Tr(CX)$$ under the constraint $Tr(A_j X)\le b_j$ for all $j \in [m]$ with semidefinite $X$.
+The goal is to maximize the object function $$Tr(CX)$$ 
+
+\begin{equation}
+   Tr(CX)
+\label{eq1}
+\end{equation}
+
+under the constraint $Tr(A_j X)\le b_j$ for all $j \in [m]$ with semidefinite $X$.
 
 There are several frameworks to solve SDP. One of it is the [AK framework](#AKframe).
 
@@ -55,6 +53,8 @@ Use the Gibbs sampling.
 
 ## <a name="details" />Appendix
 $$ \Vert\vec{x}\Vert_1=\sum_{i=1}^N\vert{x_i}\vert $$
+
+$\bar{X} = \frac{\sum_{i=1}^n X_i}{n}$
 
 $$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
 
