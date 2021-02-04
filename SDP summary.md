@@ -14,7 +14,7 @@
 Also see Equation \@ref(eq:mean).
 
 \begin{equation}
-\bar{X} = \frac{\sum_{i=1}^n X_i}{n} (\#eq:mean)
+\bar{X} = \frac{\sum_{i=1}^n X_i}{n} 
 \end{equation}
 
 And see Table \@ref(tab:mtcars).
@@ -23,11 +23,8 @@ And see Table \@ref(tab:mtcars).
 knitr::kable(mtcars[1:5, 1:5], caption = "The mtcars data.")
 ```
 
-
 # Semidefinite programming
-## Contents
-* Problem definition
-* complexity
+Special types of optimization problems.
 
 ## Problem definition
 The goal is to maximize the object function $$Tr(CX)$$ under the constraint $Tr(A_j X)\le b_j$ for all $j \in [m]$ with semidefinite $X$.
@@ -36,7 +33,7 @@ The goal is to maximize the object function $$Tr(CX)$$ under the constraint $Tr(
 The improvment for the QM approach to the Arora-Kale framework is the [Gibbs sampling](#improvement).
 
 
-##<a id="AKframe" />The Arora-Kale framework
+## <a id="AKframe" />The Arora-Kale framework
 
 * complexity for the Arora-Kale framework
 
@@ -55,29 +52,6 @@ There are several frameworks to solve SDP. One of it is the [AK framework](#AKfr
 ## <a id="improvement" />Main improvement
 Use the Gibbs sampling.
     
-##　test
-```mermaid
-    pie 
-    title Pets adopted by volunteers
-    "Dogs" : 386
-    "Cats" : 85
-    "Rats" : 15 
-``
-
-```mermaid
-graph RL;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-
-```mermaid
-graph LR
-    A:::someclass --> B
-    classDef someclass fill:#f96;
-```
     
 ## Reference:
 [1] [Fernando G.S.L. Brandao, Krysta Svore, Quantum Speed-ups for Semidefinite Programming](https://arxiv.org/abs/1609.05537)
