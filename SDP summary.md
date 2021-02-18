@@ -68,8 +68,7 @@ $O_I$ calculates the $index_{A_j}$: [n]x[s] $\rightarrow$ [n] function
       
 another oracle $O_M$ , returning a bitstring representation of $(A_j)_{ki}$ 
 for any $j\in{0}\bigcup[m]$ and $k,i\in$[n]      
-
-      $$O_M |j,k,i,z\rangle = |j,k,i,z\oplus({A_j})_{k,l}\rangle$$
+$$O_M |j,k,i,z\rangle = |j,k,i,z\oplus({A_j})_{k,l}\rangle$$
 
 
 $$ \Vert\vec{x}\Vert_1=\sum_{i=1}^N\vert{x_i}\vert $$
