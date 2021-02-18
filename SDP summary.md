@@ -65,16 +65,9 @@ partition functions with a quantum computer. Phys. Rev. Lett. 103, 220502 (2009)
 assume sparse black-box access to the elements of matrices C, A1, . . . , Am
 - $O_I$ calculates the $index_{A_j}$: [n]x[s] $\rightarrow$ [n] function
       $$O_I |j,k,l\rangle = |j,k,index_{A_j}(k,l)\rangle$$
-- another oracle $O_M$ , returning a bitstring representation of $(A_j)_{ki}$ for any $j\in{0}\bigcup[m]$ and $k,i\in$[n]
+- another oracle $O_M$ , returning a bitstring representation of $(A_j)_{ki}$ for any $j\in{0}\bigcup[m]$ and $k,i\in$[n]      
       $$O_M |j,k,i,z\rangle = |j,k,i,z\oplus({A_j})_{k,l}\rangle$$
-      
 
-another oracle $O_M$ , returning a bitstring representation of $(A_j)_{ki}$ for any $j\in{0}\bigcup[m]$ and $k,i\in$[n]
-
-
-$$O_I |j,k,l\rangle = |j,k,index_{A_j}(k,l)\rangle$$
-      
-$$O_M |j,k,i,z\rangle = |j,k,i,z\oplus({A_j})_{k,l}\rangle$$
 
 $$ \Vert\vec{x}\Vert_1=\sum_{i=1}^N\vert{x_i}\vert $$
 
