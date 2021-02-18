@@ -73,10 +73,7 @@ another oracle $O_M$ , returning a bitstring representation of $(A_j)_{ki}$ for 
 
 
 another oracle $O_M$ , returning a bitstring representation of $(A_j)_{ki}$ for 
-
-any $j\in{0}\bigcup[m]$
-
-and $k,i\in$[n]
+any $j\in{0}\bigcup[m]$ and $k,i\in$[n]
 
     $$O_M |j,k,i,z\rangle = |j,k,i,z\oplus({A_j})_{k,l}\rangle$$
       
