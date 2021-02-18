@@ -71,6 +71,14 @@ assume sparse black-box access to the elements of matrices C, A1, . . . , Am
 another oracle $O_M$ , returning a bitstring representation of $(A_j)_{ki}$ for any $j\in{0}\bigcup[m]$ and $k,i\in$[n]
       $$O_M |j,k,i,z\rangle = |j,k,i,z\oplus({A_j})_{k,l}\rangle$$
 
+
+another oracle $O_M$ , returning a bitstring representation of $(A_j)_{ki}$ for 
+
+any $j\in{0}\bigcup[m]$
+
+and $k,i\in$[n]
+
+    $$O_M |j,k,i,z\rangle = |j,k,i,z\oplus({A_j})_{k,l}\rangle$$
       
 another oracle $O_M$ , returning a bitstring representation of $(𝐴_𝑗)_{ki}$ for any $j\in{0}\bigcup[𝑚]$ and  𝑘,𝑖 $\in$[𝑛] 
       $$O_M |j,k,i,z\rangle = |j,k,i,z\oplus({A_j})_{k,l}\rangle$$
