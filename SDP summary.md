@@ -35,7 +35,7 @@ For probelme definition, please see Equation \eqref{eq1}.
 | --- | ---- | ----  |  ------ |  ---- |
 | [1] | classical  | Arora-Kale |  $\tilde{O}(nms(\frac{Rr}{\varepsilon})^4 + ns(\frac{Rr}{\varepsilon})^7)$ |  matrix multiplicative weight update method  |
 | [2] | QM   |   Fernando & Krysta |  $\tilde{O}(\sqrt{mn}s^2 R^{32}/\delta^{18})$       |   1st QM SDP paper  (Gibbs sampling) |
-| [4] | QM   |   Joran van Apeldoorn <em>et al.</em> |   $\tilde{O}(\sqrt{mn}(Rr/\delta)^{8})$  |  following [2] (amplitude estimation) |
+| [4] | QM   |   Joran van Apeldoorn <em>et al.</em> |   $\tilde{O}(\sqrt{mn}s^2(Rr/\delta)^{8})$  |  following [2] (amplitude estimation) |
 
 The improvment for the QM approach to the Arora-Kale framework is the [Gibbs sampling](#improvement).
 The details are listed in the [Appendix](#details)
